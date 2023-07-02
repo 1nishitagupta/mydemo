@@ -240,6 +240,23 @@ body {
   opacity: 0.9;
 }
 
+.main-button-green a {
+  font-size: 13px;
+  color: #fff;
+  background-color: green;
+  padding: 12px 30px;
+  display: inline-block;
+  border-radius: 22px;
+  font-weight: 500;
+  text-transform: uppercase;
+  transition: all 0.3s;
+  animation: button-ripple 3s infinite;
+}
+
+.main-button-green a:hover {
+  opacity: 0.9;
+}
+
 .main-button-yellow a {
   font-size: 13px;
   color: #fff;
@@ -962,8 +979,8 @@ section.upcoming-meetings {
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
-  padding-top: 230px;
-  padding-bottom: 110px;
+  padding-top: 150px;
+  padding-bottom: 180px;
 }
 
 section.upcoming-meetings .section-heading {
@@ -1685,6 +1702,15 @@ section.meetings-page .pagination ul li a:hover {
   margin-top: 7px;
 }
 
+
+section.register-box {
+  width: 40%;
+  display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+
 .meeting-single-item .down-content h4 {
   font-size: 22px;
   color: #1f272b;
@@ -1929,8 +1955,11 @@ responsive
   align-items: center;
 }
 
-.register-box {
+section.register-box {
   width: 40%;
+  display: flex;
+    flex-direction: column;
+    gap: 40px;
 }
 
 /* my-css */
